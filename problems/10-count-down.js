@@ -30,6 +30,30 @@ Example 4:
 
 // Your code here
 
+const countDownTimer = n => {
+
+  if(n > 0){
+
+    return newYear;
+    }
+function newYear(){
+
+console.log(n)
+let count = n -1
+return countDownTimer ;
+}
+/*Good working with ya my dude.
+ will do add me on chat and feel free to run code by me anytime */
+
+/// same brother! see you around!!! push 1 last time if u can please
+// sounds good thanks!
+return "Happy New Year!"
+
+
+
+
+}
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
