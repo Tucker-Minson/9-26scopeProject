@@ -11,6 +11,14 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 // Your code here
+const arrowRestSum = (...para) => {
+  let arr = [...para]
+  let newArr =arr.reduce(function(preVal, currVal){
+    return preVal + currVal
+  },0)
+  console.log(newArr)
+  return newArr
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
