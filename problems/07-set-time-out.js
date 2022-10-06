@@ -19,6 +19,32 @@ funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
 ***********************************************************************/
 
 // Your code here
+// const funcTimer = (time, func) => {        //first run through
+//   setTimeout(func, time)
+
+// }
+// function partyFunc () {
+//     console.log("Party time!")
+//   }
+
+//   funcTimer(5000, partyFunc); // in 5 seconds prints: "Party time!"
+/*----------------------- closure example ------------------------------*/
+
+const funcTimer = () => {
+  let timer = 5000
+  function partyFunc2(time){
+    time = time+timer
+    return setTimeout(partyFunc, time)
+  }
+  return partyFunc2
+}
+let partyFunc2 = funcTimer()
+function partyFunc () {
+  console.log("Party time!")
+}
+
+partyFunc2(7000); // in 5 seconds prints: "Party time!"
+partyFunc2(-4000); // in 5 seconds prints: "Party time!"
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
