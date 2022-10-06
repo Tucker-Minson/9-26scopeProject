@@ -17,6 +17,21 @@ hidden2(); // returns 1
 
 // Your code here
 
+const hiddenCounter =() => {
+let count = 0;
+
+function hidden(){
+count++
+
+return count
+
+}
+
+return hidden;
+
+}
+
+
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
 try {
